@@ -1,0 +1,17 @@
+{
+  "name": "node-k8s-jenkins",
+  "version": "1.0.0",
+  "description": "Node.js application deployed to Kubernetes using Jenkins",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "supertest": "^7.1.1"
+  }
+}
